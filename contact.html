@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Sprint-Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <!-- favicon -->
+ <link rel="shortcut icon" href="img/1.png">
+ <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+ 
+</head>
+<body>
+   <div class="main">
+    <div class="header">
+        <nav class="navbar">
+       <ul class="sidebar">
+         <li>
+             <img src="img/5-removebg-preview.png" alt="" width="50px" height="50px">
+         </li>
+             <li class="menu" onclick="hideSidebar()">
+               <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#179817; "><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+             </li>
+               <li class="list">
+                 <a class="link" href="index.html">Home</a>
+               </li>
+               <li class="list">
+                 <a class="link" href="about.html">About Us</a>
+               </li>
+               <li class="list">
+                 <a class="link" href="learn.html">Learn</a>
+               </li>
+               <li class="list">
+                 <a class="link" href="project.html">Projects</a>
+               </li>
+               <li class="list">
+                 <a class="link" href="community.html">Community</a>
+               </li>
+               <li class="list">
+                 <a class="link" href="contact.html">Contacts</a>
+               </li>
+             </ul>
+           
+        <ul class="side">
+         <li class="menu" onclick="showSidebar()">
+           <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#179817;"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+         </li>
+         <li>
+             <img src="img/5-removebg-preview.png" alt="" width="50px" height="50px">
+         </li>
+         <li class="lists">
+             <a class="link" href="index.html">Home</a>
+           </li>
+           <li class="lists">
+             <a class="link" href="about.html">About Us</a>
+           </li>
+           <li class="lists">
+             <a class="link" href="learn.html">Learn</a>
+           </li>
+           <li class="lists">
+             <a class="link" href="project.html">Projects</a>
+           </li>
+           <li class="lists">
+             <a class="link" href="community.html">Community</a>
+           </li>
+           <li class="listS">
+             <a class="link" href="contact.html">Contacts</a>
+           </li>
+         </ul>
+       </ul>
+         </nav>
+     </div>
+    <div class="container">
+        <h1>Contact Us 📩</h1>
+        <p>Have any questions or partnership ideas? Let's talk!</p>
+        <form action="https://formspree.io/f/meoaqpzr" method="POST">
+<label>
+    Your email:<br><br>
+    <input type="email" name="email" placeholder="Enter email:">
+  </label><br><br>
+  <label>
+    Your message:<br><br>
+    <textarea name="message" placeholder="Enter Message:" rows="5"></textarea>
+  </label><br><br>
+  <!-- your other form fields go here -->
+  <button type="submit" >Send</button>
+</form>
+        <div id="formMessage" class="message"></div>
+        <footer>
+            <p>©2025 Data Sprint 💨 | Empowering Data Enthusiasts</p>
+        </footer>
+    </div>
+
+   
+   </div>
+   </body>
+   </html>
